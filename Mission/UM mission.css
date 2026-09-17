@@ -1,0 +1,420 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+     background:  linear-gradient(to left, #09260B, #054F08 , #AD7A00 130%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    flex-wrap: wrap;
+    max-width: 900px;
+    text-align: center;
+}
+
+.name{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title h2{ 
+    color: whitesmoke;
+    margin: 5px ;
+}
+.name h3{
+    color: rgb(192, 179, 0);
+    margin: 0;
+}
+
+.container{
+    
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+#ums{
+    border: 5px solid;
+    border-color: goldenrod;
+    border-radius: 100px;
+}
+#cs2{
+    border: 2px solid orangered;
+    border-radius: 15px;
+}
+
+.buttos{
+    flex-wrap: wrap;
+  width: 100%;
+  max-width: 500px;
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+#History{
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#History:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+
+#M{
+     width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#M:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+#Vision{
+       width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#Vision:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+#Motto{
+       width: 80px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#Motto:hover{
+     background-color: #c70909;
+     box-shadow: 2px 4px 5px chartreuse;
+}
+#CS{
+     width: 150px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto;
+    transition: 0.5s;
+}
+#CS:hover{
+     background-color: #c70909;
+       box-shadow: 2px 4px 5px chartreuse;
+}
+
+#prof{
+       width: 100px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto; 
+    transition: 0.5s;
+}
+#prof:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+
+#devs{
+    width: 90px;
+    height: 200px;
+    padding: 10px;
+   box-sizing: border-box;
+   max-width: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: #183019;
+    color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+    height: auto; 
+    transition: 0.5s;
+}
+#devs:hover{
+    background-color: #c70909;
+      box-shadow: 2px 4px 5px chartreuse;
+}
+
+.missions{
+    
+    flex-wrap: wrap;
+    min-height: 200px;
+    height: auto;
+    border: 4px solid white;
+    border-radius: 20px;
+    color: white;
+    width: 70%;
+    margin-top: 50px;
+    padding: 20px;
+     background: linear-gradient(to right, #1D301D, #1E471E, goldenrod 120%);
+}
+
+
+.ace{
+    min-width: 90%;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+h4{
+    color: goldenrod;
+    margin-left: 40px ;
+    margin: 10px;
+    
+}
+
+h3{
+    color: #FF2B00;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+p{
+    font-size: large;
+    margin-left: 10px;
+}
+.Box1{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.A{
+     flex-wrap: wrap;
+    width: 300px;
+    border: 2px solid whitesmoke;
+     border-radius: 10px;
+     height: 260px;
+     padding-left: 15px;
+     background-color: yellowgreen;
+     transition: 0.5s;
+    
+}
+.A:hover{
+    box-shadow: 2px 2px 7px  yellowgreen;
+    border-radius: 50px;
+  
+}
+
+ .A p{
+    color: #5e0000;
+    font-weight: bolder;
+    padding-left: 10px;
+    margin: 5px;
+ }
+.A h2{
+   
+     flex-wrap: wrap;
+    margin-top: 30px;
+    color: white;
+    font-size: 80px;
+padding: 10px;
+  margin: 0 ; 
+  transition: 0.2s;
+}
+ .A h2:hover{
+    color: black;
+     text-shadow: 1px 2px 7px red;
+ }
+ .name{
+    flex-wrap: wrap;
+    color: whitesmoke;
+    margin-bottom: 15px;
+ }
+    
+.C{
+     
+    width: 300px;
+    border: 2px solid whitesmoke;
+     border-radius: 10px;
+     height: 260px;
+     padding-left: 15px;
+     background-color: goldenrod;
+    transition: 0.2s;
+}
+
+.C:hover{
+    box-shadow: 2px 2px 7px goldenrod;
+    border-radius: 50px;
+}
+ .C p{
+    color: #5e0000;
+    font-weight: bolder;
+    padding-left: 10px;
+    margin: 5px;
+ }
+.C h2{
+    flex-wrap: wrap;
+    margin-top: 30px;
+    color: white;
+    font-size: 80px;
+    margin: 5px 0; 
+padding: 10px;
+
+}
+.C h2:hover{
+    color: black;
+     text-shadow: 1px 2px 7px red;
+ }
+ 
+
+ .names{
+    color: whitesmoke;
+    margin-bottom: 15px;
+ }
+ 
+.E{
+     
+    width: 300px;
+    border: 2px solid whitesmoke;
+     border-radius: 10px;
+     height: 260px;
+     padding-left: 15px;
+    background-color: rgb(127, 42, 212);
+    transition: 0.2s;
+}
+.E:hover{
+    box-shadow: 2px 2px 7px goldenrod;
+    border-radius: 50px;
+}
+
+ .E p{
+    color: #5e0000;
+    font-weight: bolder;
+    padding-left: 10px;
+    margin: 5px;
+ }
+.E h2{
+    margin-top: 30px;
+    color: white;
+    font-size: 80px;
+    margin: 5px 0; 
+padding: 10px;
+transition: 0.2s;
+}
+ .E h2:hover{
+    color: black;
+     text-shadow: 1px 2px 7px red;
+ }
+
+
+ .namess{
+    color: whitesmoke;
+    margin-bottom: 10px;
+ }
+    
+
+@media (max-width: 500px){
+    .missions{
+    flex-wrap: wrap;
+    min-height: 200px;
+    height: auto;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    background-color: #3b5200;
+}
+
+.A{
+     flex-wrap: wrap;
+    width: 100%;
+    border: 2px solid whitesmoke;
+     border-radius: 10px;
+     height: 300px;
+     padding-left: 15px;
+    
+}
+
+.A h2{
+   
+     flex-wrap: wrap;
+    margin-top: 30px;
+    color: white;
+    font-size: 80px;
+padding: 10px;
+  margin: 0 ; 
+  transition: 0.5s;
+}
+ .A h2:hover{
+    color: black;
+     text-shadow: 1px 2px 7px red;
+ }
+.C{
+     
+    width: 100%;
+    border: 2px solid whitesmoke;
+     border-radius: 10px;
+     height: 300px;
+     padding-left: 15px;
+    
+}
+.E{
+     
+    width: 100%;
+    border: 2px solid whitesmoke;
+     border-radius: 10px;
+     height: 300px;
+     padding-left: 15px;
+    
+}
+}
